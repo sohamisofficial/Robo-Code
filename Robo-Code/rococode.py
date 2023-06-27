@@ -12,4 +12,4 @@ def about():
     name="Soham"
     return render_template('about.html', name = name)
 
-app.run(debug=False,host='0.0.0.0')
+app.run(debug=False,host='0.0.0.0', port=5000)
